@@ -1,0 +1,14 @@
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin: 10px 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}

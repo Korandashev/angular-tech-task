@@ -1,0 +1,32 @@
+:host {
+  width: 100%;
+  padding: 20px;
+  margin: 5px;
+  background: transparent;
+  border: 1px solid #000;
+
+  @media screen and (min-width: 768px) {
+    max-width: 250px;
+  }
+
+  .card {
+    display: block;
+    text-decoration: none;
+    color: #000;
+
+    &__header {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &__author {
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    &__footer {
+      margin-top: 20px;
+    }
+  }
+}

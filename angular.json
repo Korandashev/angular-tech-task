@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-tech-task"
+    }
+  },
+  "defaultProject": "angular-tech-task",
+  "cli": {
+    "analytics": false
+  }
 }

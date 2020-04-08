@@ -1,0 +1,14 @@
+<a href="#" class="card">
+  <div class="card__header">
+    <h4>{{report.title}}</h4>
+  </div>
+  <div class="card__author">
+    <span>{{report.author}}</span>
+  </div>
+  <div class="card__footer">
+    <div class="tag-wrapper">
+      <app-tag *ngFor="let tag of report.tags" [tag]="tag"></app-tag>
+      <app-tag [tag]="{name: report.lang}"></app-tag>
+    </div>
+  </div>
+</a>

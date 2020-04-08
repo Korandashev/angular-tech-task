@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="filter-wrapper">
+    <app-checkbox-filter #filter [filters]="languages" name="lang"></app-checkbox-filter>
+    <app-checkbox-filter #filter [filters]="tags" name="tags"></app-checkbox-filter>
+    <app-input-filter #filter name="search"></app-input-filter>
+    <button type="button" (click)="clearFilters()">Reset filters</button>
+  </div>
+</div>
+<div class="container">
+  <div class="card-wrapper">
+    <app-card *ngFor="let report of reports" [report]="report"></app-card>
+  </div>
+</div>

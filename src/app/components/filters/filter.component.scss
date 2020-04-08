@@ -1,0 +1,27 @@
+:host {
+  display: inline-block;
+  margin-left: 40px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  .filter {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+
+    input[type="checkbox"], span {
+      vertical-align: middle;
+    }
+
+    span {
+      margin-left: 5px;
+      text-transform: uppercase;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
